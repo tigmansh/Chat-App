@@ -1,0 +1,61 @@
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    height: 100vh;
+}
+
+.container {
+    max-width: 955px;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    border: 2px solid black;
+    border-radius: 20px 0px;
+    margin-bottom: 23px;
+}
+
+.message {
+    background-color: black;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.left {
+    float: left;
+    color: black;
+    background-color: white;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+#chatbox {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+
+#messageInp {
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 30px;
+}
+
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 30px;
+}
