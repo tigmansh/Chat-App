@@ -11,6 +11,10 @@ const io = new Server(httpServer);
 
 const users = {};
 
+app.get("/", (req,res)=>{
+  res.send("Hello !");
+})
+
 io.on("connection", (socket) => {
   socket.on("new-user-joined", (name) => {
     // console.log("New user", name);
