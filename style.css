@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    max-width: 955px;
+    max-width: 753px;
     margin: auto;
     height: 60vh;
     padding: 33px;
@@ -13,6 +13,7 @@ body {
     border: 2px solid black;
     border-radius: 20px 0px;
     margin-bottom: 23px;
+    background-image: url("./img/WhatsApp\ Image\ 2023-03-18\ at\ 13.25.14.jpg");
 }
 
 .message {
@@ -29,25 +30,31 @@ body {
 .left {
     float: left;
     color: black;
-    background-color: white;
+    font-size: large;
+    background-color: #62CDFF;
     clear: both;
+    border-radius: 15px 15px 15px -0;
 }
 
 .right {
     float: right;
+    color: black;
+    font-size: large;
+    background-color: #97DEFF;
     clear: both;
+    border-radius: 15px 15px -0 15px;
 }
 
 #chatbox {
     display: block;
     margin: auto;
     text-align: center;
-    max-width: 985px;
+    max-width: 840px;
     width: 100%;
 }
 
 #messageInp {
-    width: 80%;
+    width: 90%;
     border: 2px solid black;
     border-radius: 6px;
     height: 30px;
@@ -58,4 +65,11 @@ body {
     border: 2px solid black;
     border-radius: 6px;
     height: 30px;
+}
+
+#counter{
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
