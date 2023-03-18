@@ -36,3 +36,8 @@ socket.on("receive", (data) => {
 socket.on("leave", (name) => {
     append(`${name} Left the chat`, "left");
 });
+
+socket.on("user-online", (count) => {
+    const online = document.getElementById("count");
+    online.innerHTML = count;
+});
