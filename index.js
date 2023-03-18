@@ -5,7 +5,6 @@ const { Server } = require("socket.io");
 // We are making http server because this socket.io doesn't support express server...
 
 const http = require("http");
-const { isObject } = require("util");
 const httpServer = http.createServer(app);
 httpServer.listen(8080);
 
